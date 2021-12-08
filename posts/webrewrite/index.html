@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="">
+<meta name="generator" content="Hugo 0.89.4" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/css/style.css" type="text/css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700" type="text/css">
+<link rel="alternate" href="/index.xml" type="application/rss+xml" title="Emma&#39;s blog">
+<title>Is it time to rewrite the web? - Emma&#39;s blog</title>
+</head>
+<body>
+
+<header>
+  <div class="container clearfix">
+    <a class="path" href="https://jemhop.github.io/">[Emma&#39;s blog]</a>
+    <span class="caret"># _</span>
+    <div class="right">
+      
+    </div>
+  </div>
+</header>
+
+<div class="container">
+
+
+<main role="main" class="article">
+  
+<article class="single" itemscope itemtype="http://schema.org/BlogPosting">
+  <div class="meta">
+
+    <span class="key">published on</span>
+    <span class="val"><time itemprop="datePublished" datetime="2021-12-08">December 08, 2021</time></span>
+
+
+    <span class="key">in</span>
+    <span class="val">
+
+        <a href="/categories/rambling">rambling</a>
+
+        <a href="/categories/webdev">webdev</a>
+
+        <a href="/categories/opinion">opinion</a>
+
+    </span>
+
+
+  </div>
+  <h1 class="headline" itemprop="headline">Is it time to rewrite the web?</h1>
+  <section class="body" itemprop="articleBody">
+    <h2 id="the-problem">The problem</h2>
+<p>One of the most recited rules of software developement is that a rewrite is <em>nearly</em> <em><strong>never</strong></em> a good idea. But what if your project is 30 years old and was originally intended as a system to share static documents, now being used for games, photo editing software, and even virtual machines?</p>
+<p>The mantra of avoiding rewrites fundamentally applies because of the old adage &ldquo;If it ain&rsquo;t broke, don&rsquo;t fix it&rdquo;, but I would argue that the modern web is <em>extremely</em> broke.</p>
+<p>If you&rsquo;ll briefly excuse my love for analogies:</p>
+<p><em>The web is like a rickety bridge with most of the planks missing. Every new technology and web framework is like laying some wood on the bridge to cover a gap. The bridge is crossable and it certaintly isn&rsquo;t broken but that doesn&rsquo;t mean that those ancient skinny beams designed to support people should be used to hold up semi-trucks, or that you should rely on those added pieces of wood that aren&rsquo;t even nailed down.</em></p>
+<p>I&rsquo;ve been looking through old discussions about web development, tracing sentiment through the past 15 years. I wouldn&rsquo;t say everyone agrees that front end development is a hacked together mess, but I don&rsquo;t think anyone is denying it either.</p>
+<p>The best description I&rsquo;ve heard of web development is from a <a href="https://www.reddit.com/r/programming/comments/arrva/does_anyone_actually_like_web_development/">Reddit thread from about 2009</a>.</p>
+<p>Here&rsquo;s a shortened version of it (emphasis mine):</p>
+<blockquote>
+<p>TL;DR - Front end web is broken by design and it is a hack</p>
+<p>. . . Front End web development is (actually has become) fundamentally wrong.</p>
+<p>HTTP and HTML were designed for synchronous communication of STATELESS documents. <em>Everything since then, including javascript  . . . has been a HACK to overcome the limitations of a simple technology</em>.</p>
+<p>This is why server-side programming feels so counter intuitive because you are basically writing complex applications with event-driven functionality but ultimately reducing the whole interface into a static document with nothing more than a fancy text-generator.</p>
+<p>Then there is a disconnect as your complex application is completely separated from the interface the user will be interacting with when you send this static document to the client.</p>
+<p>Once on the client, you rely on an unknown program to render the interface as you intended and usually on a script interpreter to manage the execution of any &ldquo;dynamic&rdquo; functionality you may have added with javascript.</p>
+<p>In my opinion, The best way to approach the problem is to think of it as you are writing two separate applications. One is a client application that is completely only responsible for accepting some data and manipulating an interface in one of the worst UI environments ever. The second is a server application that has specific input and output data and essentially performs logic and generates text.</p>
+<p>. . . Unfortunately, there are not many ways around this since to get a significantly more reliable way of creating a cohesive application you would need a client-server structure that maintains a continuous two-way connection for each client and this would require vastly more bandwidth and server resources, especially for large sites. Until then we are stuck with ping-and-pray structure.</p>
+</blockquote>
+<p><em>Credit to u/inkhaton for this beautifully said explanation.</em></p>
+<h4 id="while-not-all-of-it-is-relevant-to-the-modern-web">While not all of it is relevant to the modern web,</h4>
+<p>it still rings pretty true doesn&rsquo;t it? I&rsquo;m not the best developer, I&rsquo;d reckon I&rsquo;m a pretty shit one, but I refuse to believe that the way forward is SSR, or mixed CSR and SSR, or Typescript, or another component based library. Least of all, I don&rsquo;t believe it&rsquo;s some ridiculous technology stack with 10+ technologies to basically study.</p>
+<p>The problem is that the web was <em>fundamentally</em> not designed for this. I understand why web apps are so popular, they have genuine huge advantages over native applications, but collectively, we&rsquo;ve spent 20+   years using increasingly elaborate methods to cover up a very limited system.</p>
+<hr>
+<h2 id="what-i-believe-is-the-solution">What I believe is the solution</h2>
+<p>There are alternatives to the web, such as Gemini and Gopher, but both of these are rather limited. Gemini is designed to be explicitly minimal. Doesn&rsquo;t it seem like what we truly need is a framework that is designed to be the exact opposite of minimal? Imagine what the web could be, if by default it matched the capabilities of native applications, instead of doing so via tireless work by some of the smartest developers in the world over 20 years.</p>
+<p>On the web I need to use years of collective work by very smart people and spend hours and hours wrangling CSS to do basic tasks in order to accomplish what I could do on the desktop using MVC or immediate gui&rsquo;s in about 10 minutes.</p>
+<p>Many modern computers have at the minimum:</p>
+<ul>
+<li>8GBs of ram</li>
+<li>quad core CPUs</li>
+<li>integrated GPUs good enough to run games</li>
+</ul>
+<p>This is leaving out how unbelievable lots of modern bandwidth is. Due to where I live, I unfortunately get about 10mbps, but regardless that&rsquo;s still fast enough to download at some pretty damn impressive speeds.</p>
+<p>Moore&rsquo;s law has bestowed great power upon us, lets use it to solve hard problems in stupid ways instead of solving a problem that shouldn&rsquo;t exist in very smart ways.</p>
+<blockquote>
+<p>How does a smart engineer make dumb mistakes? They optimize something that shouldn&rsquo;t exist.</p>
+<p>-Elon Musk</p>
+</blockquote>
+
+  </section>
+</article>
+
+</main>
+
+</div>
+
+<footer>
+  <div class="container">
+    <span class="copyright">&copy; 2021 Emma&#39;s blog - <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></span>
+  </div>
+</footer>
+
+</body>
+</html>
+

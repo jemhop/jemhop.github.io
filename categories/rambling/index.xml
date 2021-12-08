@@ -8,9 +8,19 @@
     <language>en-us</language>
     <lastBuildDate>Wed, 08 Dec 2021 00:15:31 +0200</lastBuildDate><atom:link href="https://jemhop.github.io/categories/rambling/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Is it time to rewrite the web?</title>
+      <link>https://jemhop.github.io/posts/webrewrite/</link>
+      <pubDate>Wed, 08 Dec 2021 00:15:31 +0200</pubDate>
+      
+      <guid>https://jemhop.github.io/posts/webrewrite/</guid>
+      <description>The problem One of the most recited rules of software developement is that a rewrite is nearly never a good idea. But what if your project is 30 years old and was originally intended as a system to share static documents, now being used for games, photo editing software, and even virtual machines?
+The mantra of avoiding rewrites fundamentally applies because of the old adage &amp;ldquo;If it ain&amp;rsquo;t broke, don&amp;rsquo;t fix it&amp;rdquo;, but I would argue that the modern web is extremely broke.</description>
+    </item>
+    
+    <item>
       <title>A new experiment</title>
       <link>https://jemhop.github.io/posts/firstpost/</link>
-      <pubDate>Wed, 08 Dec 2021 00:15:31 +0200</pubDate>
+      <pubDate>Tue, 07 Dec 2021 00:15:31 +0200</pubDate>
       
       <guid>https://jemhop.github.io/posts/firstpost/</guid>
       <description>I&amp;rsquo;ve never really been a blogging fan. I grew up in an era when blogging was like, so totally uncool, something only oldies and total lame-o&amp;rsquo;s did. There was definitely some truth in that in the early 2010s, but as a Gen Z baby, I missed out on web 1.0 by years and the vast majority of web 2.0.

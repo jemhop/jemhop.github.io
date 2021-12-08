@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Emma&#39;s blog</title>
-    <link>https://jemhop.github.io/</link>
-    <description>Recent content on Emma&#39;s blog</description>
+    <title>opinion on Emma&#39;s blog</title>
+    <link>https://jemhop.github.io/categories/opinion/</link>
+    <description>Recent content in opinion on Emma&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 08 Dec 2021 00:15:31 +0200</lastBuildDate><atom:link href="https://jemhop.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 08 Dec 2021 00:15:31 +0200</lastBuildDate><atom:link href="https://jemhop.github.io/categories/opinion/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Is it time to rewrite the web?</title>
       <link>https://jemhop.github.io/posts/webrewrite/</link>
@@ -15,16 +15,6 @@
       <guid>https://jemhop.github.io/posts/webrewrite/</guid>
       <description>The problem One of the most recited rules of software developement is that a rewrite is nearly never a good idea. But what if your project is 30 years old and was originally intended as a system to share static documents, now being used for games, photo editing software, and even virtual machines?
 The mantra of avoiding rewrites fundamentally applies because of the old adage &amp;ldquo;If it ain&amp;rsquo;t broke, don&amp;rsquo;t fix it&amp;rdquo;, but I would argue that the modern web is extremely broke.</description>
-    </item>
-    
-    <item>
-      <title>A new experiment</title>
-      <link>https://jemhop.github.io/posts/firstpost/</link>
-      <pubDate>Tue, 07 Dec 2021 00:15:31 +0200</pubDate>
-      
-      <guid>https://jemhop.github.io/posts/firstpost/</guid>
-      <description>I&amp;rsquo;ve never really been a blogging fan. I grew up in an era when blogging was like, so totally uncool, something only oldies and total lame-o&amp;rsquo;s did. There was definitely some truth in that in the early 2010s, but as a Gen Z baby, I missed out on web 1.0 by years and the vast majority of web 2.0.
-The only web I&amp;rsquo;ve ever known is a world of frameworks, Bootstrap, and mandatory responsiveness.</description>
     </item>
     
   </channel>

@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://jemhop.github.io/posts/firstpost/</loc>
-    <lastmod>2021-12-08T00:15:31+02:00</lastmod>
-  </url><url>
     <loc>https://jemhop.github.io/categories/</loc>
     <lastmod>2021-12-08T00:15:31+02:00</lastmod>
   </url><url>
     <loc>https://jemhop.github.io/</loc>
+    <lastmod>2021-12-08T00:15:31+02:00</lastmod>
+  </url><url>
+    <loc>https://jemhop.github.io/posts/webrewrite/</loc>
+    <lastmod>2021-12-08T00:15:31+02:00</lastmod>
+  </url><url>
+    <loc>https://jemhop.github.io/categories/opinion/</loc>
     <lastmod>2021-12-08T00:15:31+02:00</lastmod>
   </url><url>
     <loc>https://jemhop.github.io/posts/</loc>
@@ -16,6 +19,12 @@
   </url><url>
     <loc>https://jemhop.github.io/categories/rambling/</loc>
     <lastmod>2021-12-08T00:15:31+02:00</lastmod>
+  </url><url>
+    <loc>https://jemhop.github.io/categories/webdev/</loc>
+    <lastmod>2021-12-08T00:15:31+02:00</lastmod>
+  </url><url>
+    <loc>https://jemhop.github.io/posts/firstpost/</loc>
+    <lastmod>2021-12-07T00:15:31+02:00</lastmod>
   </url><url>
     <loc>https://jemhop.github.io/tags/</loc>
   </url>
